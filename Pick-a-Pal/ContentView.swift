@@ -19,7 +19,7 @@ struct ContentView: View {
                 Image(systemName: "person.3.sequence.fill")
                     .foregroundStyle(.tint)
                     .symbolRenderingMode(.hierarchical)
-                Text("Кто Бежит За Клинским?!")
+                Text("Кто Идет За Клинским?!")
                     .font(.title)
                     .bold()
             }
@@ -57,7 +57,7 @@ struct ContentView: View {
                     pickedName = ""
                 }
             } label: {
-                Text("Выбрать Случайное Имя")
+                Text("Выбрать Того Кто Идет")
                     .padding(.vertical, 8)
                     .padding(.horizontal, 16)
             }
